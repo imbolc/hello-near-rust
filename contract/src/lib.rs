@@ -24,7 +24,7 @@ impl Default for Contract {
 impl Contract {
     // Public: Returns the stored greeting, defaulting to 'Hello'
     pub fn get_greeting(&self) -> String {
-        return self.greeting.clone();
+        self.greeting.clone()
     }
 
     // Public: Takes a greeting, such as 'howdy', and records it
